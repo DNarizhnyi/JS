@@ -1,15 +1,15 @@
-"use strict";
+var firstNum = prompt ("Enter the first value");
+var secondNum = prompt ("Enter second value");
+console.log (firstNum, "\t\t\t\t", secondNum);
 
-var a = 10;
-var a = a++ + a++;
-console.log(--a);
-alert (a);
+console.log ("result = ", Math.round (Math.floor (firstNum)/Math.ceil (secondNum)));
+
 
 /*
-Есть такой пример https://jsfiddle.net/910zmck2/
-у него результат в консоли 21.
-Используя только инкременты и/или декременты 
-(постфиксный или префиксный) исправьте так, 
-чтобы в консоли было 20
+Создать две переменные, 
+значения каждой из них получить с помощью prompt().
+ Первую переменную округлить к меньшему значению, вторую - к большему.
+  Затем поделить первую на вторую и результат округлить к ближайшему 
+  целому. Вспоминаем, какие функции объекта Math для этого нужны
 
 */
