@@ -1,15 +1,19 @@
 "use strict";
 
-var a = 10;
-var a = a++ + a++;
-console.log(--a);
-alert (a);
+var a = 1022;
+var b = 111;
+var c = 111;
+
+if (a>b && a>c){
+	alert ("a is the biggest number " + a);
+  }else{
+  if (b>a && b>c)
+  alert ("b is the biggest number " + b);
+  else
+  alert ("c is the biggest number " + c);
+  }
 
 /*
-Есть такой пример https://jsfiddle.net/910zmck2/
-у него результат в консоли 21.
-Используя только инкременты и/или декременты 
-(постфиксный или префиксный) исправьте так, 
-чтобы в консоли было 20
+Написать код, который будет выводить максимум из ТРЁХ чисел.
 
 */
