@@ -10,3 +10,10 @@ planets.pop(); //удалил методом pop. Он удаляет после
 for (i=0; i<=planets.length-1; i++){  // перебор элеметов массива
     console.log (planets[i]);
 }
+
+
+// для перечисления в обратном порядке
+
+for (i=planets.length-1; i>=0; i--){  // перебор элеметов массива
+    console.log (planets[i]);
+}
