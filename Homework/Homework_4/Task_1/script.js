@@ -11,4 +11,5 @@
 let favoriteFilms = ['Troya','13 Druzey Oushena','Braveheart'];
 
 favoriteFilms[3] = 'Superman';
-
+favoriteFilms.push ('Gorets');
+console.log (favoriteFilms);
